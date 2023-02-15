@@ -14,5 +14,8 @@ fmt.Printf("%c\n",0x49)
 fmt.Printf("%d\n", 'c')
 
 //character to hexa
-fmt.Printf("%x", 'A')
+fmt.Printf("%x\n", 'A')
+
+//decimal to hexa
+fmt.Printf("%x", 65)
 }
