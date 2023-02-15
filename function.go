@@ -8,8 +8,11 @@ fmt.Printf("%c\n", 68)
 
 
 //Hexadecimal number to character
-fmt.Printf("%c",0x49)
+fmt.Printf("%c\n",0x49)
 
 //character to decimal
-fmt.Printf("%d", 'c')
+fmt.Printf("%d\n", 'c')
+
+//character to hexa
+fmt.Printf("%x", 'A')
 }
