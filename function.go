@@ -17,5 +17,12 @@ fmt.Printf("%d\n", 'c')
 fmt.Printf("%x\n", 'A')
 
 //decimal to hexa
-fmt.Printf("%x", 65)
+fmt.Printf("%x\n", 65)
+
+//function calling
+NumtoChar(65)
+}
+
+func NumtoChar(x int){
+fmt.Printf("%c\n",x)
 }
