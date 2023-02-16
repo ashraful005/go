@@ -43,6 +43,10 @@ fmt.Println("The time is", theTime)
 fmt.Println(theTime.Format(time.RFC3339Nano))
 
 dateTime()
+
+//age calculation
+hours:=time.Now().Sub(theDate)
+fmt.Println(hours)
 }
 
 
