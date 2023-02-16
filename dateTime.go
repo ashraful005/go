@@ -33,7 +33,7 @@ fmt.Println(theDate.Format("2006-01-02 03:04:05 pm"))
 fmt.Println(theDate.Format(time.RFC3339Nano))
 
 //parsing strings into time
-timeString := "2021-08-15T14:30:45.0000001-6:00"
+timeString := "2021-08-15T14:30:45.0000001-05:00"
 theTime, err := time.Parse(time.RFC3339Nano, timeString)
 if err != nil{
 fmt.Println("Could not parse time:", err)
