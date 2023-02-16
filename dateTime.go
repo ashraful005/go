@@ -41,4 +41,22 @@ fmt.Println("Could not parse time:", err)
 fmt.Println("The time is", theTime)
 
 fmt.Println(theTime.Format(time.RFC3339Nano))
+
+dateTime()
+}
+
+
+
+func dateTime() {
+	firstTime := time.Date(2021, 8, 15, 14, 30, 45, 100, time.UTC)
+	fmt.Println("The first time is", firstTime)
+
+	secondTime := time.Date(2021, 12, 25, 16, 40, 55, 200, time.UTC)
+	fmt.Println("The second time is", secondTime)
+
+	fmt.Println("First time before second?", firstTime.Before(secondTime))
+	fmt.Println("First time after second?", firstTime.After(secondTime))
+
+	fmt.Println("Second time before first?", secondTime.Before(firstTime))
+	fmt.Println("Second time after first?", secondTime.After(firstTime))
 }
