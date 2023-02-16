@@ -28,4 +28,7 @@ fmt.Println("The time is ",theDate)
 fmt.Println(theDate.Format("2006-1-2 15:4:5"))
 
 fmt.Println(theDate.Format("2006-01-02 03:04:05 pm"))
+
+//using predefined format
+fmt.Println(theDate.Format(time.RFC3339Nano))
 }
