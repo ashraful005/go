@@ -24,6 +24,6 @@ func main() {
 theDate := time.Date(2000,6,30,6,24,30,100,time.Local)
 fmt.Println("The time is ",theDate)
 
-//converting a string into date
+//formatting the date with specified format
 fmt.Println(theDate.Format("2006-1-2 15:4:5"))
 }
