@@ -21,9 +21,11 @@ func main() {
 		currentTime.Hour(), currentTime.Minute(), currentTime.Second())
 
 //formatting a specific date
-theDate := time.Date(2000,6,30,6,24,30,100,time.Local)
+theDate := time.Date(2000,6,30,13,24,30,100,time.Local)
 fmt.Println("The time is ",theDate)
 
 //formatting the date with specified format
 fmt.Println(theDate.Format("2006-1-2 15:4:5"))
+
+fmt.Println(theDate.Format("2006-01-02 03:04:05 pm"))
 }
