@@ -15,6 +15,11 @@ x["Ashraful"] = 23
 x["Mostain"] = 40
 x["Mehedi"] = 24
 
+//deletion from map
+delete(x, "Ashraful")
+
+
+//data retreival from map
 fmt.Println(x)
 fmt.Println(x["Ashraful"])
 }
