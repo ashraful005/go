@@ -13,6 +13,7 @@ func main(){
 //array declaration
 var students [3]string
 fmt.Println(students)
+fmt.Println(len(students))
 
 
 
