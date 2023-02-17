@@ -25,5 +25,5 @@ b1.ISBN = "978-1478355823"
 b1.Price = 10.50
 b1.Pages = 165
 
-fmt.Println(b1)
+fmt.Println(b1.Title)
 }
