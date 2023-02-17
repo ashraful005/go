@@ -8,5 +8,9 @@ func main(){
 students :=[]string{"Ashraful", "Asgor", "Mostain"}
 
 x := students[0:2]
+
+//creating a slice
+y := make([]string, 0)
 fmt.Println(x)
+fmt.Println(y)
 }
