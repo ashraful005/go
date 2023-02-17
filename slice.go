@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import ("fmt"
+        "reflect"
+)
 
 func main(){
 //slices are segments of array
@@ -23,4 +25,10 @@ fmt.Println(y)
 fmt.Println(fruits, len(fruits))
 fmt.Printf("%T\n", fruits)
 fmt.Printf("%T\n", students)
+
+//reflect package
+a := reflect.TypeOf(students).Kind().String()
+b := reflect.TypeOf(fruits).Kind().String()
+fmt.Println(a)
+fmt.Println(b)
 }
