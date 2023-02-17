@@ -13,6 +13,7 @@ name = "Ashraful"
 //declaration and initialization
 var age int = 23
 
+//multiple variable assignment
 var city, state string = "Cumilla", "Bangladesh"
 
 fmt.Println(name, age, city, state)
