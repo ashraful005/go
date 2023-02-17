@@ -53,6 +53,6 @@ fmt.Println(b1.Price)
 fmt.Println(b1.Pages)
 
 //custom datatype
-fmt.Println(w1)
+fmt.Println(w1, name)
 
 }
