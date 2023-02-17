@@ -41,6 +41,9 @@ b1.Pages = 165
 //custom datatype declaration
 var w1 Weight
 
+//custom variable initialization
+w1 = 30.5
+
 //data retreival
 fmt.Println(b1)
 fmt.Println(b1.Title)
