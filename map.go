@@ -11,7 +11,8 @@ func main(){
 var x map[string]int
 
 //map initialization
-
+x["Ashraful"] = 23
+x["Mostain"] = 40
 
 fmt.Println(x)
 }
