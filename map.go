@@ -13,6 +13,8 @@ x :=  make(map[string]int)
 //map initialization
 x["Ashraful"] = 23
 x["Mostain"] = 40
+x["Mehedi"] = 24
 
 fmt.Println(x)
+fmt.Println(x["Ashraful"])
 }
