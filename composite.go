@@ -27,7 +27,7 @@ students[2]="Ashgor"
 //fmt.Println(students[2])
 
 //shorthend declaration of array, string literals
-customers := [3]string{"Ashraful", "Mainul", "Mostain"}
+customers := []string{"Ashraful", "Mainul", "Mostain", "Arif"}
 fmt.Println(customers)
 
 
