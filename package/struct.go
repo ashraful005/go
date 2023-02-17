@@ -1,8 +1,7 @@
 package main
 
-import ("fmt"
-	"custom.go"
-)
+import "fmt"
+
 
 /*
 //struct defination
