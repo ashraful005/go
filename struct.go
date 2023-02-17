@@ -15,7 +15,7 @@ Pages int
 
 func main(){
 //struct combines two or more different data types
-//shorthend struct declaration
+//shorthend struct declaration - anonymous struct
 b1 := struct{
 Title string
 Author string
