@@ -21,4 +21,6 @@ fruits = append(fruits, "Apple","Banana","Mango")
 fmt.Println(x)
 fmt.Println(y)
 fmt.Println(fruits, len(fruits))
+fmt.Printf("%T\n", fruits)
+fmt.Printf("%T\n", customers)
 }
