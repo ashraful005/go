@@ -24,7 +24,11 @@ students[1]="Mostain"
 students[2]="Ashgor"
 
 //data retreive
-fmt.Println(students[2])
+//fmt.Println(students[2])
+
+//shorthend declaration of array, string literals
+customers := [3]string{"Ashraful", "Mainul", "Mostain"}
+fmt.Println(customers)
 
 
 }
