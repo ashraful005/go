@@ -16,5 +16,14 @@ fmt.Println(students)
 fmt.Println(len(students))
 
 
+//array characteristics
+//fixed length, same type
+//array initialization
+students[0]="Ashraful"
+students[1]="Mostain"
+students[2]="Ashgor"
+
+fmt.Println(students[2])
+
 
 }
