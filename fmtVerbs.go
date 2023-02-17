@@ -9,5 +9,9 @@ fmt.Println(isFound)
 
 //logical operators
 fmt.Println(true && false)
+fmt.Println(true && true)
+fmt.Println(true || false)
+fmt.Println(false || false)
+fmt.Println(!true)
 
 }
