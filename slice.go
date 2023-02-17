@@ -20,5 +20,5 @@ fruits = append(fruits, "Apple","Banana","Mango")
 
 fmt.Println(x)
 fmt.Println(y)
-fmt.Println(fruits)
+fmt.Println(fruits, len(fruits))
 }
