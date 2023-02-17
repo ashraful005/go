@@ -20,7 +20,9 @@ var age int
 var result float32
 var name string
 var found bool
+c='অ'
 
 fmt.Println(c, age, result, name, found)
+fmt.Printf("%c",c)
 
 }
