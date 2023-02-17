@@ -23,6 +23,7 @@ students[0]="Ashraful"
 students[1]="Mostain"
 students[2]="Ashgor"
 
+//data retreive
 fmt.Println(students[2])
 
 
