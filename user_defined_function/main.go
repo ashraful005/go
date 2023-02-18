@@ -25,13 +25,24 @@ return temp
 }
 */
 
+/*
 //example-04
 func add(a int,b int) (temp int){
 temp = a+b
 return 
 }
+*/
+
+//rectangle
+func rectangle(a,b int) (area int, perimeter int){
+area = a*b
+perimeter = 2*(a+b)
+return
+}
 
 func main(){
-fmt.Println(add(5,6))
+a, p := rectangle(10,10)
+fmt.Println(a, p)
+//fmt.Println(add(5,6))
 
 }
