@@ -25,13 +25,19 @@ return temp
 }
 */
 
-/*
+
 //example-04
 func add(a int,b int) (temp int){
 temp = a+b
 return 
 }
-*/
+
+
+//case sensitive
+func Add(a int,b int) (temp int){
+temp = a*b
+return 
+}
 
 //rectangle
 func rectangle(a,b int) (area int, perimeter int){
@@ -43,6 +49,6 @@ return
 func main(){
 a, p := rectangle(10,10)
 fmt.Println(a, p)
-//fmt.Println(add(5,6))
+fmt.Println(Add(5,6))
 
 }
