@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+func update(a *int){
+*a=*a+10
+}
+
 func main(){
 var x int
 fmt.Println("x value is ", x)
@@ -22,4 +26,7 @@ fmt.Println("y is ", y)
 
 //accessing value from a pointer or dereferencing
 fmt.Println("y dereferencing value is ", *y)     //dereferencing
+
+update(y)
+fmt.Println("x is ", x)
 }
