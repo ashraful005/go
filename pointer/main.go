@@ -11,4 +11,11 @@ fmt.Println("x memory address is ", &x)
 var y *int
 fmt.Println("y value is ", y)
 fmt.Println("y memory address is ", &y)
+
+
+//pointer initialization
+x = 10
+y=&x
+fmt.Println("x is ", x)
+fmt.Println("y is ", y)
 }
