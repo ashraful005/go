@@ -17,11 +17,18 @@ return temp
 }
 */
 
-
+/*
 //example-03
 func add(a int,b int) (temp int){
 temp = a+b
 return temp
+}
+*/
+
+//example-04
+func add(a int,b int) (temp int){
+temp = a+b
+return 
 }
 
 func main(){
