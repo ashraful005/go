@@ -14,8 +14,8 @@ fmt.Println("y memory address is ", &y)
 
 
 //pointer initialization
-x = 10
-y=&x
+x = 10  //assignment
+y=&x  //referencing
 fmt.Println("x is ", x)
 fmt.Println("y is ", y)
 
