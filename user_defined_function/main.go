@@ -46,9 +46,23 @@ perimeter = 2*(a+b)
 return
 }
 
+
+//passing pointer or address of a variable
+func update(a *int, t *string){
+*a = *a + 5
+*t = *t + " Doe"
+return
+}
+
 func main(){
-a, p := rectangle(10,10)
-fmt.Println(a, p)
+ar, p := rectangle(10,10)
+fmt.Println(ar, p)
 fmt.Println(Add(5,6))
+
+a := 10
+t := "Mostain"
+fmt.Println(a, t)
+update(&a, &t)
+fmt.Println(a, t)
 
 }
