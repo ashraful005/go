@@ -28,7 +28,17 @@ func main() {
 	reqstr := string(bs) //conversion
 	fmt.Println(reqstr)
 
-	body := `<!DOCTYPE html><html><head><title>Page Title</title></head><body><h1>Welcome to coding bootcamp 2023</h1><p>I'm Md. Ashraful Alam</p></body></html>`
+	body := `<!DOCTYPE html>
+			<html>
+			<head>
+			<title>Page Title</title>
+			</head>
+			<body>
+			<h1>Welcome to coding bootcamp 2023</h1>
+			<p>I'm Md. Ashraful Alam</p>
+			<img src="th.jpg" alt="Italian Trulli">
+			</body>
+			</html>`
 
 	resp := "HTTP/1.1/ 200 OK\r\n" +
 		"Content-Length: %d\r\n" +
