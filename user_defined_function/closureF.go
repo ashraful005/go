@@ -7,6 +7,8 @@ func main() {
 	b := 30
 	
 	//closure function is a special anonymous function
+	//doen't have any parameters and 
+	//can access variables outside the function body
 	func() {
 		var area int
 		area = l * b
