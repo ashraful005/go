@@ -16,10 +16,10 @@ fmt.Println("y memory address is ", &y)
 //pointer initialization
 x = 10  //assignment
 y=&x  //referencing
-fmt.Println("x is ", x)
-fmt.Println("y is ", y)
+fmt.Println("x is ", x)    //accessing
+fmt.Println("y is ", y)    
 
 
-//accessing value from a pointer
-fmt.Println("y dereferencing value is ", *y)
+//accessing value from a pointer or dereferencing
+fmt.Println("y dereferencing value is ", *y)     //dereferencing
 }
