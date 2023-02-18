@@ -65,4 +65,13 @@ fmt.Println(a, t)
 update(&a, &t)
 fmt.Println(a, t)
 
+//anonymous function
+
+x := func(a,b int) (r int){
+r = (a+b)*(a+b)
+return
+}
+
+fmt.Println(x(3,4))
+
 }
