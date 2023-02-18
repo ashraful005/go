@@ -11,6 +11,7 @@ fmt.Scanf("%d", &age)
 switch age{
 case 0,1,2:
 fmt.Println("Infant")
+fallthrough
 
 case 3,4,5,6,7,8,9,10,11,12:
 fmt.Println("Children")
