@@ -18,4 +18,8 @@ x = 10
 y=&x
 fmt.Println("x is ", x)
 fmt.Println("y is ", y)
+
+
+//accessing value from a pointer
+fmt.Println("y dereferencing value is ", *y)
 }
