@@ -1,8 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"net/http"
+)
 
+func main() {
+	http.HandleFunc("/", home)
+	http.ListenAndServe(":8888", nil)
 
-func main(){
+}
 
+func home(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, `Welcome to my first Golang webpage`)
 }
