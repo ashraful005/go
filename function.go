@@ -20,8 +20,20 @@ func main() {
 
 	//function calling
 	NumtoChar(65)
+
+
+	fmt.Println(sum(5,10, 20, 30))
 }
 
 func NumtoChar(x int) {
 	fmt.Printf("%c\n", x)
+}
+
+
+//variadic
+func sum(a ...int) (r int){
+for _, v := range a{
+r = r + v
+}
+return
 }
