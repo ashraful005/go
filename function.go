@@ -20,6 +20,11 @@ func main() {
 
 	//function calling
 	NumtoChar(65)
+	
+	//multiple variable of different type
+	var name, age, gpa = "Ashraful", 23, 5.00
+
+	fmt.Println(name, age, gpa)
 
 
 	fmt.Println(sum(5,10, 20, 30))
