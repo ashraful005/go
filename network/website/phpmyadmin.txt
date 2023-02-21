@@ -1,0 +1,12 @@
+//mysql root password reset
+
+mysqladmin --user=root password "newpassword"
+
+
+//test the changed password is whether working or not
+mysql --user=root --password="changed password" -e "SELECT 1+1"
+
+Ex:
+mysql --user=root --password=gue55me -e "SELECT 1+1"
+
+
