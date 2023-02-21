@@ -10,3 +10,5 @@ Ex:
 mysql --user=root --password=gue55me -e "SELECT 1+1"
 
 
+//existing password reset
+mysqladmin --user=root --password=oldpassword password "newpassword"

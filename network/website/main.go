@@ -13,7 +13,7 @@ func init() {
 	// Open up our database connection.
 	// I've set up a database on my local machine using phpmyadmin.
 	// The database is called testDb
-	db, err := sql.Open("mysql", "username:password@tcp(127.0.0.1:3306)/test")
+	db, err := sql.Open("mysql", "root:m10203049@tcp(127.0.0.1:3306)/test")
 
 	// if there is an error opening the connection, handle it
 	if err != nil {
