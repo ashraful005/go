@@ -58,12 +58,20 @@ func docs(w http.ResponseWriter, r *http.Request) {
 }
 
 func request(w http.ResponseWriter, r *http.Request) {
-	//r.ParseForm()
-	name := r.FormValue("name")
-	company := r.FormValue("company")
-	email := r.FormValue("email")
+	//method-01
+	//name := r.FormValue("name")
+	//company := r.FormValue("company")
+	//email := r.FormValue("email")
 
-	fmt.Println(name, company, email)
+	//fmt.Println(name, company, email)
 
-	fmt.Fprintf(w, `received %s %s %s`, name, company, email)
+	//fmt.Fprintf(w, `received %s %s %s`, name, company, email)
+
+	//method-02
+	r.ParseForm()
+
+	for key, val := range r.Form {
+		fmt.Println(key, val)
+	}
+	fmt.Fprintf(w, `received`)
 }
