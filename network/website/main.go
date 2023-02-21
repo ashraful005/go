@@ -65,5 +65,5 @@ func request(w http.ResponseWriter, r *http.Request) {
 
 	fmt.Println(name, company, email)
 
-	fmt.Fprintf(w, `received`)
+	fmt.Fprintf(w, `received %s %s %s`, name, company, email)
 }
