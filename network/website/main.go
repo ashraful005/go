@@ -24,6 +24,13 @@ func init() {
 	// executing
 	defer db.Close()
 
+	insert, err := db.Query("INSERT INTO `request` (`id`, `name`, `company`, `email`, `status`) VALUES (NULL, 'Ashraful Alam', 'Tiger IT', 'emdashrafulalam@gmail.com', '1');")
+
+	if err != nil {
+		panic(err.Error())
+	}
+	defer insert.Close()
+
 	fmt.Println("database connected")
 }
 
