@@ -1,6 +1,38 @@
-//connect telnet
+1.connect telnet
 telnet smtp.gmail.com 25
 
 
-//check the connection 
+2. check the connection 
 HELO smtp.gmail.com
+
+3. install openssl
+
+4. less secure app access ON
+
+5. tls certificate generation
+openssl s_client -connect smtp.gmail.com:587 -quiet -starttls smtp
+
+
+6. authorization
+i. insecure way:
+auth plain "encrypted password"==
+
+7. MAIL FROM: <sender email>
+
+8. RCPT TO: <receiver email>
+
+9. DATA
+
+10. 
+FROM: <sender email>
+TO: <receiver email>
+SUBJECT: HOW TO SEND EMAIL FROM CMD
+Assalamualaikum, this is Md. Ashraful Alam from KUET. This is a test email.
+Command line is awesome
+
+Regards
+Ashraful
+.
+
+
+
