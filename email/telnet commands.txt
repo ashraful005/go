@@ -1,0 +1,6 @@
+//connect telnet
+telnet smtp.gmail.com 25
+
+
+//check the connection 
+HELO smtp.gmail.com
