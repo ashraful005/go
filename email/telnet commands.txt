@@ -16,7 +16,7 @@ openssl s_client -connect smtp.gmail.com:587 -quiet -starttls smtp
 6. authorization
 i. insecure way:
 auth plain "encrypted password"
-
+//AGFsYW0xODA5MDA1QHN0dWQua3VldC5hYy5iZABBYmMxMDIwMzA0NUBB
 7. MAIL FROM: <sender email>
 
 8. RCPT TO: <receiver email>
